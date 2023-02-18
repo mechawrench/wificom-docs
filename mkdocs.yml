@@ -1,0 +1,9 @@
+site_name: WiFiCom Docs
+theme:
+  name: material
+  palette:
+    primary: red
+nav:
+    - Introduction: 'index.md'
+    - 'about.md'
+    - 'onboarding_wificom.md' 
