@@ -3,23 +3,26 @@ theme:
   name: material
   palette:
     primary: red
+markdown_extensions:
+- attr_list
+- md_in_html
 nav:
     - Introduction: 'index.md'
-    - 'about.md'
-    - 'resources.md'
-    - 'supported_boards.md'
-    - 'diy_build.md'
-    - 'buy_premade.md'
-    - 'onboarding_wificom.md'
-    - 'credentials.md'
-    - 'configuration.md'
-    - 'editable_files.md'
-    - 'apps.md'
-    - 'realtime_battles.md'
-    - 'power_options.md'
-    - 'libaries.md'
-    - 'upgrading_software.md'
-    - 'schematic.md'
-    - 'troubleshooting.md'
+    # - 'about.md'
+    # - 'resources.md'
+    # - 'supported_boards.md'
+    # - 'diy_build.md'
+    # - 'buy_premade.md'
+    # - 'onboarding_wificom.md'
+    # - 'credentials.md'
+    # - 'configuration.md'
+    # - 'editable_files.md'
+    # - 'apps.md'
+    # - 'realtime_battles.md'
+    # - 'power_options.md'
+    # - 'libaries.md'
+    # - 'upgrading_software.md'
+    # - 'schematic.md'
+    # - 'troubleshooting.md'
     - 'w0rld_integration.md'
-    - 'credits.md'
+    # - 'credits.md'
