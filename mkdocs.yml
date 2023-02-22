@@ -12,6 +12,8 @@ nav:
     # - 'resources.md'
     - 'supported_boards.md'
     # - 'diy_build.md'
+    - 'parts_list.md'
+    # - 'picow_breadboard.md'
     # - 'buy_premade.md'
     # - 'onboarding_wificom.md'
     # - 'credentials.md'
