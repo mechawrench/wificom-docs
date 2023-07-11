@@ -9,15 +9,17 @@
       
       
       
-        <link rel="prev" href="../dependencies/">
+        <link rel="prev" href="../supported_boards/">
       
+      
+        <link rel="next" href="../device_user_guide/">
       
       <link rel="icon" href="../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.4.2, mkdocs-material-9.0.12">
     
     
       
-        <title>Upgrading Software - WiFiCom Docs</title>
+        <title>Parts List - WiFiCom Docs</title>
       
     
     
@@ -65,7 +67,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#upgrading-software" class="md-skip">
+        <a href="#parts-list" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +100,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Upgrading Software
+              Parts List
             
           </span>
         </div>
@@ -212,11 +214,101 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../parts_list/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Parts List
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Parts List
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#minimum-base-for-pico-w-on-breadboard" class="md-nav__link">
+    Minimum base for Pico W on breadboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screen" class="md-nav__link">
+    Screen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speaker" class="md-nav__link">
+    Speaker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prong-circuit" class="md-nav__link">
+    Prong circuit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-led-circuit" class="md-nav__link">
+    IR LED circuit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-link-and-fusion-loader" class="md-nav__link">
+    Data Link and Fusion Loader
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ictwindigiwindow" class="md-nav__link">
+    iC/Twin/DigiWindow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#talispoddam" class="md-nav__link">
+    Talispod/dam
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -287,21 +379,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../upgrading_software/" class="md-nav__link">
         Upgrading Software
       </a>
-      
     </li>
   
 
@@ -326,6 +408,70 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#minimum-base-for-pico-w-on-breadboard" class="md-nav__link">
+    Minimum base for Pico W on breadboard
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#screen" class="md-nav__link">
+    Screen
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#speaker" class="md-nav__link">
+    Speaker
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#prong-circuit" class="md-nav__link">
+    Prong circuit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ir-led-circuit" class="md-nav__link">
+    IR LED circuit
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#data-link-and-fusion-loader" class="md-nav__link">
+    Data Link and Fusion Loader
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#ictwindigiwindow" class="md-nav__link">
+    iC/Twin/DigiWindow
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#talispoddam" class="md-nav__link">
+    Talispod/dam
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -340,21 +486,76 @@
 
 
 
-<h1 id="upgrading-software">Upgrading Software</h1>
-<ol>
-<li>Backup your current files, in particular the following are commonly modified:<ul>
-<li>secrets.py</li>
-<li>board_config.py</li>
-<li>config.py (previously digiroms.py)</li>
+<h1 id="parts-list">Parts List</h1>
+<p>This project is modular, so choose the sections you need. Screen and speaker are optional, but we highly recommend using them as they provide a much easier time with the WiFiCom.</p>
+<h2 id="minimum-base-for-pico-w-on-breadboard">Minimum base for Pico W on breadboard</h2>
+<ul>
+<li>Pi Pico W with headers</li>
+<li>Breadboard: 830 tie points for a full build</li>
+<li>Breadboard jumper wires<ul>
+<li>A kit including some short wires is recommended</li>
+<li>Or, very short connections can be made using legs cut from extra resistors</li>
 </ul>
 </li>
-<li>Update CircuitPython if required</li>
-<li>Put the WiFiCom into drive mode so that the CIRCUITPY drive is writeable</li>
-<li>Download the latest release from releases page, you'll be looking for a file named "wificom-lib_RELEASEVERSION.zip"</li>
-<li>Extract the zip and copy the contents into the root of the CIRCUITPY drive</li>
-<li>Compare contents of your modified files with the new files and make any necessary changes</li>
-<li>Test that everything works, including connecting to WiFi and sending/receiving DigiRoms</li>
-</ol>
+<li>Visible LED: conventionally orange in this project</li>
+<li>220R resistor</li>
+<li>1 small pushbutton (tactile switch)</li>
+</ul>
+<h2 id="screen">Screen</h2>
+<ul>
+<li>4-pin SSD1306 128x64 OLED module<ul>
+<li>Note that GND and Vcc are switched on some of these products - check yours carefully!</li>
+</ul>
+</li>
+<li>2 more small pushbuttons for 3 in total</li>
+</ul>
+<h2 id="speaker">Speaker</h2>
+<ul>
+<li>Passive buzzer module with built-in amplifier and 3 pins for Vcc, GND and signal: recommended for breadboarding</li>
+<li>See the schematic for a possible alternative circuit<ul>
+<li>Note: different speakers may need different circuits</li>
+</ul>
+</li>
+</ul>
+<h2 id="prong-circuit">Prong circuit</h2>
+<ul>
+<li>Resistors: 1 each of 470K, 100K, 4K7, 1K</li>
+<li>1nF ceramic capacitor</li>
+<li>Connector to toy e.g. 2 round breadboard jumpers</li>
+</ul>
+<h2 id="ir-led-circuit">IR LED circuit</h2>
+<ul>
+<li>(Shared between all IR devices and D-Scanner barcodes)</li>
+<li>IR LED, 940nm or 950nm<ul>
+<li>LEDs with half-angles of 10 and 15 degrees tested and working</li>
+<li>30 degrees did not work well with the D-Scanner</li>
+</ul>
+</li>
+<li>220R resistor</li>
+</ul>
+<h2 id="data-link-and-fusion-loader">Data Link and Fusion Loader</h2>
+<ul>
+<li>TSOP4838 IR sensor</li>
+<li>(Also need the IR LED circuit)</li>
+</ul>
+<h2 id="ictwindigiwindow">iC/Twin/DigiWindow</h2>
+<ul>
+<li>TSMP58000 IR sensor</li>
+<li>(Also need the IR LED circuit)</li>
+</ul>
+<h2 id="talispoddam">Talispod/dam</h2>
+<ul>
+<li>1K2 resistor (1%)</li>
+<li>3K3 resistor (1%)</li>
+<li>1nF ceramic capacitor</li>
+<li>Connector to the toy<ul>
+<li>Note: we can't just stick wires into the prongs as with Digimon</li>
+<li>Craft a connector?</li>
+<li>Desolder a Talisdam cord, replace with something else, and use the cord with other toys?</li>
+<li>Custom connectors are in development</li>
+</ul>
+</li>
+</ul>
 
 
 
