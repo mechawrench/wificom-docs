@@ -2,17 +2,11 @@
 
 The w0rld development team has now added WiFiCom to the w0rld game.  This works for all supported platforms that the game runs on.
 
-## Subscribe to w0rld 
-Navigate to the w0rld Public App and subscribe w0rld app, visit the following link to find our public apps:  [Visit Public Apps](https://wificom.dev/public-applications)
-
 ## Obtain Credentials
-1. Obtain credentials and subscribe to the w0rld Public App
-    1. Obtain your WiFiCom API Key from your [WiFiCom User Profile](https://wificom.dev/my-profile).  It will be at the bottom of the page.
-        - Select the permissions "device_access" and "application_access" to allow the game to access your WiFiCom device.
-        ![API Key Generation](/images/w0rld_integration/api_key_generation.png)
-    1. Obtain your WiFiCom Device UUID by navigating to your [WiFiCom Device List](https://wificom.dev/wifi-devices).
-        ![WiFiCom Device UUIDs](/images/w0rld_integration/device_uuids.png)
-         _You may need to click on the WiFiCom device you want to easily copy the UUID._
+1. Create an API key: On the [API Keys](https://wificom.dev/app-credentials) page, click "Get New API Key" for w0rld
+        ![API Key Generation](/images/w0rld_integration/w0rld_new_api_key.png)
+1. Copy your API Key and Device Name from the box which appears
+        ![w0rld Credentials](/images/w0rld_integration/w0rld_get_credentials.png)
 
 ## Configure w0rld
 1. Open w0rld and login, navigate to the settings menu (Gear icon)
@@ -24,7 +18,8 @@ Navigate to the w0rld Public App and subscribe w0rld app, visit the following li
 ## Play w0rld
 1. Ensure your WiFiCom is connected to WiFi (first menu option)
 1. Go ahead and summon as usual, you only need to press the DCom button once now!
-1. You can also battle as usual, at this point your WiFiCom should be working, if not, please check you followed every step (Subscribing to w0rld is required to use WiFiCom in w0rld)
+1. You can also battle as usual, at this point your WiFiCom should be working, if not, please check you followed every step
+1. If your WiFiCom has a speaker, it will beep to let you know when it has received your requests from w0rld
 
 ## Use an A-Com/D-Com
 Simply uncheck the WiFiCom box in the settings menu to use an A-Com/D-Com
