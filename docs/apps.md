@@ -2,9 +2,11 @@
 
 ## w0rld
 
-WiFi is supported! See [w0rld Integration](w0rld_integration.md).
+WiFi is supported! See [w0rld Integration](w0rld_integration.md). Also works in serial mode.
 
-w0rld is working with WiFiCom in serial mode on Windows but not on Android.
+## NacaBattle
+
+WiFi is supported!
 
 ## Alpha Terminal and Serial
 
