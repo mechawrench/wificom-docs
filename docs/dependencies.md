@@ -17,5 +17,6 @@ These are included in the release zip. If installing manually, check `sources.js
 ## Server
 
 wificom.dev is open-source. The code is available at:
-- https://github.com/mechawrench/wificom-webapp/
-- https://github.com/mechawrench/wificom-mosquitto-docker/
+
+- [wificom-webapp](https://github.com/mechawrench/wificom-webapp/)
+- [wificom-mosquitto-docker](https://github.com/mechawrench/wificom-mosquitto-docker/)

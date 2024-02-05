@@ -13,12 +13,16 @@ The UI has a small screen and 3 buttons.
 - WiFi: Connect to WiFi and MQTT and await instructions from the server
 - Serial: Act as a normal serial com unit
 - Punchbag: Communicate with the toys in a standalone mode (you can edit `config.py` to change the available options in this submenu)
-- Drive: Make the CIRCUITPY drive writeable so you can edit configuration or update firmware
+- Settings:
+    - Version Info: Show the version info
+    - Sound: Toggle sound ON/OFF.
+    - Drive: Make the CIRCUITPY drive writeable so you can edit configuration or update firmware
+    - UF2 Bootloader: Activate the RPI-RP2 drive for updating CircuitPython
 
 ## LED Indicator
 - Raspberry Pi Pico W: external LED on GP10
-- Arduino Nano RP2040 Connect: on-board orange LED
 - Raspberry Pi Pico: on-board green LED
+- Seeed Xiao RP2040: external LED on A3
 
 ### LED Meanings
 - Blinking indicates connecting to WiFi and MQTT
