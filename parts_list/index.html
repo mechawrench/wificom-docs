@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.7">
     
     
       
@@ -24,10 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.fad675c6.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.f2e4d321.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -63,7 +63,6 @@
     
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
   
-    
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -115,6 +114,7 @@
     </div>
     
       
+    
     
     
     
@@ -285,18 +285,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#minimum-base-for-pico-w-on-breadboard" class="md-nav__link">
+  <a href="#wificom-base" class="md-nav__link">
     <span class="md-ellipsis">
-      Minimum base for Pico W on breadboard
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#screen" class="md-nav__link">
-    <span class="md-ellipsis">
-      Screen
+      WiFiCom base
     </span>
   </a>
   
@@ -464,6 +455,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -491,18 +502,9 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#minimum-base-for-pico-w-on-breadboard" class="md-nav__link">
+  <a href="#wificom-base" class="md-nav__link">
     <span class="md-ellipsis">
-      Minimum base for Pico W on breadboard
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#screen" class="md-nav__link">
-    <span class="md-ellipsis">
-      Screen
+      WiFiCom base
     </span>
   </a>
   
@@ -578,8 +580,8 @@
 
 
 <h1 id="parts-list">Parts List</h1>
-<p>This project is modular, so choose the sections you need. Screen and speaker are optional, but we highly recommend using them as they provide a much easier time with the WiFiCom.</p>
-<h2 id="minimum-base-for-pico-w-on-breadboard">Minimum base for Pico W on breadboard</h2>
+<p>This project is modular, so choose the sections you need.</p>
+<h2 id="wificom-base">WiFiCom base</h2>
 <ul>
 <li>Pi Pico W with headers</li>
 <li>Breadboard: 830 tie points for a full build</li>
@@ -590,15 +592,11 @@
 </li>
 <li>Visible LED: conventionally orange in this project</li>
 <li>220R resistor</li>
-<li>1 small pushbutton (tactile switch)</li>
-</ul>
-<h2 id="screen">Screen</h2>
-<ul>
-<li>4-pin SSD1306 128x64 OLED module<ul>
+<li>3 small pushbuttons (tactile switch)</li>
+<li>Screen: 4-pin SSD1306 128x64 OLED module<ul>
 <li>Note that GND and Vcc are switched on some of these products - check yours carefully!</li>
 </ul>
 </li>
-<li>2 more small pushbuttons for 3 in total</li>
 </ul>
 <h2 id="speaker">Speaker</h2>
 <ul>
@@ -610,18 +608,14 @@
 </ul>
 <h2 id="prong-circuit">Prong circuit</h2>
 <ul>
-<li>Resistors: 1 each of 470K, 100K, 4K7, 1K</li>
+<li>Resistors: 1 each of 470K, 100K, 6K8, 1K</li>
 <li>1nF ceramic capacitor</li>
 <li>Connector to toy e.g. 2 round breadboard jumpers</li>
 </ul>
 <h2 id="ir-led-circuit">IR LED circuit</h2>
 <ul>
 <li>(Shared between all IR devices and D-Scanner barcodes)</li>
-<li>IR LED, 940nm or 950nm<ul>
-<li>LEDs with half-angles of 10 and 15 degrees tested and working</li>
-<li>30 degrees did not work well with the D-Scanner</li>
-</ul>
-</li>
+<li>IR LED, 940nm or 950nm: OFL-5102 or LTE-4208 works well</li>
 <li>220R resistor</li>
 </ul>
 <h2 id="data-link-and-fusion-loader">Data Link and Fusion Loader</h2>
@@ -643,10 +637,17 @@
 <li>Note: we can't just stick wires into the prongs as with Digimon</li>
 <li>Craft a connector?</li>
 <li>Desolder a Talisdam cord, replace with something else, and use the cord with other toys?</li>
-<li>Custom connectors are in development</li>
+<li>Xanthos has connectors for sale</li>
 </ul>
 </li>
 </ul>
+
+
+
+
+
+
+
 
 
 
@@ -657,6 +658,7 @@
             </div>
           
           
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
@@ -685,10 +687,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      <script src="../assets/javascripts/bundle.caa56a14.min.js"></script>
       
     
   </body>

@@ -16,7 +16,7 @@
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.7">
     
     
       
@@ -24,10 +24,10 @@
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.fad675c6.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.f2e4d321.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
       
       
 
@@ -63,7 +63,6 @@
     
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
   
-    
     
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
@@ -115,6 +114,7 @@
     </div>
     
       
+    
     
     
     
@@ -265,18 +265,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#supported-boards_1" class="md-nav__link">
+  <a href="#wificom" class="md-nav__link">
     <span class="md-ellipsis">
-      Supported Boards
+      WiFiCom
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#unsupported-boards" class="md-nav__link">
+  <a href="#p-com-usb-serial-connection-only" class="md-nav__link">
     <span class="md-ellipsis">
-      Unsupported Boards
+      P-Com (USB serial connection only)
     </span>
   </a>
   
@@ -410,6 +410,26 @@
   
 
     
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../credits/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Credits
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -437,18 +457,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#supported-boards_1" class="md-nav__link">
+  <a href="#wificom" class="md-nav__link">
     <span class="md-ellipsis">
-      Supported Boards
+      WiFiCom
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#unsupported-boards" class="md-nav__link">
+  <a href="#p-com-usb-serial-connection-only" class="md-nav__link">
     <span class="md-ellipsis">
-      Unsupported Boards
+      P-Com (USB serial connection only)
     </span>
   </a>
   
@@ -470,28 +490,24 @@
 
 
 <h1 id="supported-boards">Supported Boards</h1>
-<p><code>wificom-lib</code> is designed for boards with RP2040+WiFi.</p>
-<h2 id="supported-boards_1">Supported Boards</h2>
+<h2 id="wificom">WiFiCom</h2>
 <ul>
-<li>Raspberry Pi Pico W - RECOMMENDED OPTION</li>
-<li>Arduino Nano Connect</li>
-<li>RP2040 with AirLift co-processor module<ul>
-<li>Pi Pico is the only tested board so far but others should work as well</li>
-<li>Pi Pico does not have enough pins to enable all WiFiCom features</li>
+<li>Raspberry Pi Pico W</li>
 </ul>
-</li>
-</ul>
-<h2 id="unsupported-boards">Unsupported Boards</h2>
+<p>Note: Arduino Nano Connect and RP2040+AirLift are likely to stop working in a future update.</p>
+<h2 id="p-com-usb-serial-connection-only">P-Com (USB serial connection only)</h2>
 <ul>
-<li>RP2040 Challenger with WiFi Chip<ul>
-<li>Issues with SSL with onboard chip; doesn't allow for secure requests</li>
+<li>Raspberry Pi Pico</li>
+<li>Seeed Xiao RP2040</li>
+<li>Other RP2040 boards are likely to work, but you will need to define pins in <code>board_config.py</code></li>
 </ul>
-</li>
-<li>RP2040 Challenger with WiFi/BLE Chip<ul>
-<li>Issues with SSL with onboard chip; doesn't allow for secure requests</li>
-</ul>
-</li>
-</ul>
+
+
+
+
+
+
+
 
 
 
@@ -502,6 +518,7 @@
             </div>
           
           
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
@@ -530,10 +547,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.cd18aaf1.min.js"></script>
+      <script src="../assets/javascripts/bundle.caa56a14.min.js"></script>
       
     
   </body>
