@@ -9,21 +9,25 @@
       
       
       
+        <link rel="prev" href="../parts_list/">
+      
+      
+        <link rel="next" href="../device_user_guide/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.5.7">
+      <meta name="generator" content="mkdocs-1.5.3, mkdocs-material-9.4.14">
     
     
       
-        <title>Picow breadboard - WiFiCom Docs</title>
+        <title>Breadboard Layout - WiFiCom Docs</title>
       
     
     
-      <link rel="stylesheet" href="../assets/stylesheets/main.f2e4d321.min.css">
+      <link rel="stylesheet" href="../assets/stylesheets/main.fad675c6.min.css">
       
         
-        <link rel="stylesheet" href="../assets/stylesheets/palette.06af60db.min.css">
+        <link rel="stylesheet" href="../assets/stylesheets/palette.356b1318.min.css">
       
       
 
@@ -60,10 +64,16 @@
     <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="red" data-md-color-accent="indigo">
   
     
+    
     <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
     <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
+      
+        
+        <a href="#breadboard-layout" class="md-skip">
+          Skip to content
+        </a>
       
     </div>
     <div data-md-component="announce">
@@ -97,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Picow breadboard
+              Breadboard Layout
             
           </span>
         </div>
@@ -105,7 +115,6 @@
     </div>
     
       
-    
     
     
     
@@ -210,11 +219,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../supported_boards/" class="md-nav__link">
+      <a href="../buy_premade/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Supported Boards
+    Buy Premade
   </span>
   
 
@@ -225,6 +234,66 @@
     
       
       
+  
+  
+    
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Build Your Own
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            Build Your Own
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../diy_build/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    DIY Build
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
   
   
   
@@ -239,6 +308,45 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Breadboard Layout
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -310,11 +418,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../dependencies/" class="md-nav__link">
+      <a href="../upgrading_software/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Dependencies
+    Upgrading Software
   </span>
   
 
@@ -330,11 +438,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../upgrading_software/" class="md-nav__link">
+      <a href="../dependencies/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Upgrading Software
+    Dependencies
   </span>
   
 
@@ -380,6 +488,8 @@
   
   
   
+    
+  
   
 </nav>
                   </div>
@@ -394,16 +504,17 @@
                   
 
 
-  <h1>Picow breadboard</h1>
-
-
-
-
-
-
-
-
-
+<h1 id="breadboard-layout">Breadboard Layout</h1>
+<p><img alt="Pico W breadboard" src="../images/picow_breadboard/picow_breadboard.jpg" /></p>
+<p>Note:</p>
+<ul>
+<li>4K7 in this image is replaced with 6K8 (but if you already bought 4K7, that is fine)</li>
+<li>Bend the IR LED to point in the same direction as the sensors</li>
+<li>Ideally cut the front IR sensor (TSOP4838) to have shorter legs than the back one</li>
+<li>Legendz is not shown here</li>
+<li>GND and Vcc are switched on some screens - check yours carefully - wiring these backwards will destroy the screen instantly!</li>
+<li>Check the pinout of your speaker module too</li>
+</ul>
 
 
 
@@ -414,7 +525,6 @@
             </div>
           
           
-<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
         
       </main>
@@ -443,10 +553,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.b8dbb3d2.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "..", "features": [], "search": "../assets/javascripts/workers/search.f886a092.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../assets/javascripts/bundle.caa56a14.min.js"></script>
+      <script src="../assets/javascripts/bundle.cd18aaf1.min.js"></script>
       
     
   </body>
