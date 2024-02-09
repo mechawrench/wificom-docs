@@ -1,4 +1,4 @@
-# Apps
+# Compatible Apps
 
 ## w0rld
 

@@ -8,6 +8,7 @@ markdown_extensions:
 - md_in_html
 nav:
     - Introduction: 'index.md'
+    - Videos: 'videos.md'
     # - 'about.md'
     # - 'resources.md'
     - 'buy_premade.md'
@@ -19,9 +20,12 @@ nav:
     # - 'credentials.md'
     # - 'configuration.md'
     # - 'editable_files.md'
+    - 'device_setup.md'
     - 'device_user_guide.md'
-    - 'apps.md'
-    - 'w0rld_integration.md'
+    - 'Apps':
+        - 'app_list.md'
+        - 'app_setup.md'
+        - 'w0rld_integration.md'
     # - 'realtime_battles.md'
     # - 'power_options.md'
     - 'upgrading_software.md'

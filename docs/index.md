@@ -25,7 +25,6 @@ Obtain a WiFiCom by either building or buying a premade unit from a reputable ma
 
 Once you have a WiFiCom, you can begin to configure it and connect to your first App.
 
-- [Onboarding a WiFiCom](onboarding_wificom.md)
-- [Apps](apps.md)
-
+- [Device Setup](device_setup.md)
+- [App Setup](app_setup.md)
 
