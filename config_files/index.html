@@ -9,6 +9,10 @@
       
       
       
+        <link rel="prev" href="../device_user_guide/">
+      
+      
+        <link rel="next" href="../troubleshooting/">
       
       
       <link rel="icon" href="../assets/images/favicon.png">
@@ -16,7 +20,7 @@
     
     
       
-        <title>Editable Files - WiFiCom Docs</title>
+        <title>Config Files - WiFiCom Docs</title>
       
     
     
@@ -67,7 +71,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#editable-files" class="md-skip">
+        <a href="#config-files" class="md-skip">
           Skip to content
         </a>
       
@@ -103,7 +107,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Editable Files
+              Config Files
             
           </span>
         </div>
@@ -360,19 +364,21 @@
       
   
   
+    
   
   
+  
     
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" checked>
         
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
@@ -386,7 +392,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_4">
             <span class="md-nav__icon md-icon"></span>
             Device Guides
@@ -430,6 +436,94 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Config Files
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  <span class="md-ellipsis">
+    Config Files
+  </span>
+  
+
+      </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#secretspy" class="md-nav__link">
+    <span class="md-ellipsis">
+      secrets.py
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#configpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      config.py
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#board_configpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      board_config.py
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -584,6 +678,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../realtime_battles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Real-Time Battles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -647,9 +762,9 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#digiromspy" class="md-nav__link">
+  <a href="#configpy" class="md-nav__link">
     <span class="md-ellipsis">
-      digiroms.py
+      config.py
     </span>
   </a>
   
@@ -679,11 +794,14 @@
                   
 
 
-<h1 id="editable-files">Editable Files</h1>
-<p>These files can be edited, but you must retain the changes between updates.  We may introduce breaking changes to these files that are required to run the software.  Please be sure to check the release notes for any changes to these files.</p>
+<h1 id="config-files">Config Files</h1>
+<p>These files can be edited, and should normally be retained between updates. We may introduce breaking changes to these files that are required to run the software - please check the release notes for any changes to these files.</p>
 <h2 id="secretspy">secrets.py</h2>
-<h2 id="digiromspy">digiroms.py</h2>
+<p>Contains credentials for connecting to your WiFi network and the server. Recommended to download from <code>wificom.dev</code>, but can also be filled out from <code>secrets.example.py</code>.</p>
+<h2 id="configpy">config.py</h2>
+<p>Contains non-secret configuration options. Check the comments in the file for details.</p>
 <h2 id="board_configpy">board_config.py</h2>
+<p>Describes the hardware configuration of the board. You only need to edit this if using an unsupported board or custom circuit layout. Check the comments in the file for details.</p>
 
 
 

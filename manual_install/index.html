@@ -448,6 +448,27 @@
   
   
     <li class="md-nav__item">
+      <a href="../config_files/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Config Files
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../troubleshooting/" class="md-nav__link">
         
   
@@ -533,9 +554,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#instructions" class="md-nav__link">
+  <a href="#manual-installation_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Instructions
+      Manual Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manual Update
     </span>
   </a>
   
@@ -675,6 +705,27 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../realtime_battles/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Real-Time Battles
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -747,9 +798,18 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#instructions" class="md-nav__link">
+  <a href="#manual-installation_1" class="md-nav__link">
     <span class="md-ellipsis">
-      Instructions
+      Manual Installation
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#manual-update" class="md-nav__link">
+    <span class="md-ellipsis">
+      Manual Update
     </span>
   </a>
   
@@ -791,10 +851,26 @@
 <h1 id="manual-installation">Manual Installation</h1>
 <p>Most users should use <code>wificom-update-tool</code> as described in <a href="../device_setup/">Device Setup</a> instead!</p>
 <h2 id="circuitpython">CircuitPython</h2>
-<p><code>wificom-lib</code> runs on CircuitPython 8.x. Check the CHANGELOG for the exact version tested with each release.</p>
+<p><code>wificom-lib</code> runs on CircuitPython 8.x. Check the <a href="https://github.com/mechawrench/wificom-lib/blob/main/CHANGELOG.md">CHANGELOG</a> for the exact version tested with each release.</p>
+<ul>
+<li><a href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/raspberry_pi_pico_w/">Raspberry Pi Pico W</a> (WiFiCom)</li>
+<li><a href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/raspberry_pi_pico/">Raspberry Pi Pico</a> (P-Com)</li>
+<li><a href="https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/seeeduino_xiao_rp2040/">Xiao RP2040</a> (P-Com)</li>
+</ul>
 <h2 id="release-zips">Release Zips</h2>
 <p><a href="https://github.com/mechawrench/wificom-lib/releases">wificom-lib releases</a> bundle all required libraries, and are compiled to <code>mpy</code> format for faster startup.</p>
-<h2 id="instructions">Instructions</h2>
+<h2 id="manual-installation_1">Manual Installation</h2>
+<ol>
+<li>Install CircuitPython, checking board and version as above</li>
+<li>Download the latest release from releases page, you'll be looking for a file named "wificom-lib_RELEASEVERSION.zip" or "wificom-lib_RELEASEVERSION_picow.zip"</li>
+<li>Extract the zip</li>
+<li>If you are using an unsupported board or custom circuit layout, modify "board_config.py" so the pinouts match your board</li>
+<li>Copy the files into the root of the CIRCUITPY drive</li>
+<li>Add secrets.py, either by modifying secrets.example.py, or you can get a prefilled version on wificom.dev</li>
+<li>Safely remove / eject the CIRCUITPY drive from your computer</li>
+<li>Cold reboot the WiFiCom (remove and restore power)</li>
+</ol>
+<h2 id="manual-update">Manual Update</h2>
 <ol>
 <li>Backup your current files, in particular the following are commonly modified:<ul>
 <li>secrets.py</li>
@@ -804,11 +880,12 @@
 </li>
 <li>Update CircuitPython if required</li>
 <li>Put the WiFiCom into drive mode so that the CIRCUITPY drive is writeable</li>
-<li>Download the latest release from releases page, you'll be looking for a file named "wificom-lib_RELEASEVERSION.zip" or "wificom-lib_RELEASEVERSION_picow.zip"</li>
-<li>Extract the zip and copy the contents into the root of the CIRCUITPY drive</li>
-<li>If this a new installation, add secrets.py</li>
-<li>Otherwise, compare contents of your modified files with the new files and make any necessary changes</li>
-<li>Test that everything works, including connecting to WiFi and sending/receiving DigiRoms</li>
+<li>Download the latest release from releases page, named as above</li>
+<li>Extract the zip</li>
+<li>Compare contents of your modified files with the new files and make any necessary changes</li>
+<li>Copy the files into the root of the CIRCUITPY drive</li>
+<li>Safely remove / eject the CIRCUITPY drive from your computer</li>
+<li>Reboot the WiFiCom using one of the options indicated</li>
 </ol>
 <h2 id="libraries">Libraries</h2>
 <p>These are included in the release zip. If installing manually, check <code>sources.json</code> for versions. In particular, <code>adafruit_minimqtt</code> is likely to break if a different version is used from the one specified.</p>
