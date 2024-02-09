@@ -4,9 +4,9 @@ The w0rld development team has now added WiFiCom to the w0rld game.  This works 
 
 ## Obtain Credentials
 1. Create an API key: On the [API Keys](https://wificom.dev/app-credentials) page, click "Get New API Key" for w0rld
-        ![API Key Generation](/images/w0rld_integration/w0rld_new_api_key.png)
+        ![API Key Generation](images/w0rld_integration/w0rld_new_api_key.png)
 1. Copy your API Key and Device Name from the box which appears
-        ![w0rld Credentials](/images/w0rld_integration/w0rld_get_credentials.png)
+        ![w0rld Credentials](images/w0rld_integration/w0rld_get_credentials.png)
 
 ## Configure w0rld
 1. Open w0rld and login, navigate to the settings menu (Gear icon)
