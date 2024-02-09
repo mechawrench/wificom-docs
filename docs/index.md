@@ -15,7 +15,7 @@
 - Punchbag mode provides standalone operation, with configurable DigiROMs.
 - Realtime online battles for Pendulum X/Accel/iC/Mini and Legendz Talisdam/Talispod, via the WiFiCom website.
 - Open-source server provides an HTTP API for easy app development, including web apps and iOS.
-- If you ever wanted to code your own V-Pet, this is a beginner-friendly hardware platform using CircuitPython.
+- If you ever wanted to code your own V-Pet, this is a beginner-friendly hardware platform using CircuitPython (or Arduino could be used with more effort and no infrared support).
 
 ## First Steps
 Obtain a WiFiCom by either building or buying a premade unit from a reputable maker.

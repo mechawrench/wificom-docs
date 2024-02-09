@@ -1,10 +1,10 @@
 # Device Setup
 
-Note: MacOS Sonoma is not recommended. If unavoidable, you will need to [remount the removable drive](https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting#macos-sonoma-14-dot-x-disk-errors-writing-to-circuitpy-3160304) before writing to it.
+Note: MacOS Sonoma is not recommended for setup. If unavoidable, you will need to [remount the removable drive](https://learn.adafruit.com/welcome-to-circuitpython/troubleshooting#macos-sonoma-14-dot-x-disk-errors-writing-to-circuitpy-3160304) before writing to it. Once the device has been configured, it can be used with MacOS Sonoma without issue.
 
 ## First Steps
 
-1. [Build your WiFiCom](diy_build.md) or [Buy a premade unit](buy_premade.md)
+1. [Build your WiFiCom](diy_build.md) or [buy a premade unit](buy_premade.md)
 1. For DIY units or if you need to update firmware:
     - Download [wificom-update-tool](https://github.com/mechawrench/wificom-update-tool/releases) and follow the [instructions](https://github.com/mechawrench/wificom-update-tool/blob/main/README.md)
     - If you have a premade, you can skip this step (your unit will have current firmware as of time of sale)

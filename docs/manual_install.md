@@ -4,13 +4,28 @@ Most users should use `wificom-update-tool` as described in [Device Setup](devic
 
 ## CircuitPython
 
-`wificom-lib` runs on CircuitPython 8.x. Check the CHANGELOG for the exact version tested with each release.
+`wificom-lib` runs on CircuitPython 8.x. Check the [CHANGELOG](https://github.com/mechawrench/wificom-lib/blob/main/CHANGELOG.md) for the exact version tested with each release.
+
+- [Raspberry Pi Pico W](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/raspberry_pi_pico_w/) (WiFiCom)
+- [Raspberry Pi Pico](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/raspberry_pi_pico/) (P-Com)
+- [Xiao RP2040](https://adafruit-circuit-python.s3.amazonaws.com/index.html?prefix=bin/seeeduino_xiao_rp2040/) (P-Com)
 
 ## Release Zips
 
 [wificom-lib releases](https://github.com/mechawrench/wificom-lib/releases) bundle all required libraries, and are compiled to `mpy` format for faster startup.
 
-## Instructions
+## Manual Installation
+
+1. Install CircuitPython, checking board and version as above
+1. Download the latest release from releases page, you'll be looking for a file named "wificom-lib_RELEASEVERSION.zip" or "wificom-lib_RELEASEVERSION_picow.zip"
+1. Extract the zip
+1. If you are using an unsupported board or custom circuit layout, modify "board_config.py" so the pinouts match your board
+1. Copy the files into the root of the CIRCUITPY drive
+1. Add secrets.py, either by modifying secrets.example.py, or you can get a prefilled version on wificom.dev
+1. Safely remove / eject the CIRCUITPY drive from your computer
+1. Cold reboot the WiFiCom (remove and restore power)
+
+## Manual Update
 
 1. Backup your current files, in particular the following are commonly modified:
     - secrets.py
@@ -18,11 +33,12 @@ Most users should use `wificom-update-tool` as described in [Device Setup](devic
     - config.py (previously digiroms.py)
 1. Update CircuitPython if required
 1. Put the WiFiCom into drive mode so that the CIRCUITPY drive is writeable
-1. Download the latest release from releases page, you'll be looking for a file named "wificom-lib_RELEASEVERSION.zip" or "wificom-lib_RELEASEVERSION_picow.zip"
-1. Extract the zip and copy the contents into the root of the CIRCUITPY drive
-1. If this a new installation, add secrets.py
-1. Otherwise, compare contents of your modified files with the new files and make any necessary changes
-1. Test that everything works, including connecting to WiFi and sending/receiving DigiRoms
+1. Download the latest release from releases page, named as above
+1. Extract the zip
+1. Compare contents of your modified files with the new files and make any necessary changes
+1. Copy the files into the root of the CIRCUITPY drive
+1. Safely remove / eject the CIRCUITPY drive from your computer
+1. Reboot the WiFiCom using one of the options indicated
 
 ## Libraries
 
