@@ -10,4 +10,5 @@
 - **blazeindarkness** - Maintainer of the w0rld project, first tester of a premade WiFiCom unit (BrassBolt made).  Continued support for the project and features we wish to have implemented across WiFiCom and the w0rld project.
 - **SunSoil || MintMaker** - Maintainer of A-Com Wiki, has provided feedback, input, and knowledge-share that aided other WiFiCom projects.
 - **SigmaDolphin** - Decoded the Legendz signal protocol, this helped to enable Real-Time Battles for Legendz toys.
+- **Avi** - Drew the WiFiCom logo.
 - **If we are missing anyone or anything, please let us know!**
