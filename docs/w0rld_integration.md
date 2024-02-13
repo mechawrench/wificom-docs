@@ -2,6 +2,9 @@
 
 The w0rld development team has now added WiFiCom to the w0rld game.  This works for all supported platforms that the game runs on.
 
+## Device Setup
+Ensure you have completed [Device Setup](device_setup.md).
+
 ## Obtain Credentials
 1. Create an API key: On the [API Keys](https://wificom.dev/app-credentials) page, click "Get New API Key" for w0rld
         ![API Key Generation](images/w0rld_integration/w0rld_new_api_key.png)
