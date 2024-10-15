@@ -4,13 +4,15 @@
 [![Discord Server](https://dcbadge.vercel.app/api/server/yJ4Ub64zrP)](https://discord.gg/yJ4Ub64zrP)
 
 ## What's a WiFiCom?
-- Like a D-Com/A-Com, but controlled via WiFi instead of USB. Currently most WiFiComs are powered over micro USB, but battery power is possible.
+- Like a D-Com/A-Com, but controlled via WiFi instead of USB.
+    - Premade battery-powered WiFiComs are available, giving freedom from cables!
+    - The basic DIY instructions provided on this site are for a WiFiCom powered over micro USB.
 - Supports:
     - All Digimon V-Pets currently supported by the D-Com/A-Com
     - Infrared Digimon: iC, Twin, Data Link, Fusion Loader
     - D-Scanner barcodes via infrared
     - Legendz Talispod and Talisdam.
-- w0rld already supports WiFi, with more apps to come.
+- Apps can connect over WiFi, including w0rld and NacaBattle.
 - Serial mode uses USB serial in the same way an A-Com, for use with apps that don't support WiFi yet.
 - Punchbag mode provides standalone operation, with configurable DigiROMs.
 - Realtime online battles for Pendulum X/Accel/iC/Mini and Legendz Talisdam/Talispod, via the WiFiCom website.
