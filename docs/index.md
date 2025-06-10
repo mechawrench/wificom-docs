@@ -11,6 +11,7 @@
     - All Digimon V-Pets currently supported by the D-Com/A-Com
     - Infrared Digimon: iC, Twin, Data Link, Fusion Loader
     - D-Scanner barcodes via infrared
+    - Magical Witches
     - Legendz Talispod and Talisdam.
 - Apps can connect over WiFi, including w0rld and NacaBattle.
 - Serial mode uses USB serial in the same way an A-Com, for use with apps that don't support WiFi yet.
