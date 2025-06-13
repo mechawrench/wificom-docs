@@ -2,13 +2,23 @@
 
 These files can be edited, and should normally be retained between updates. We may introduce breaking changes to these files that are required to run the software - please check the release notes for any changes to these files.
 
-## secrets.py
+## secrets.json
 
-Contains credentials for connecting to your WiFi network and the server. Recommended to download from `wificom.dev`, but can also be filled out from `secrets.example.py`.
+(`secrets.py` on v1.x firmware)
 
-## config.py
+Contains credentials for connecting to your WiFi network and the server. Recommended to download from `wificom.dev`, but can also be filled out from `secrets.example.json`.
 
-Contains non-secret configuration options. Check the comments in the file for details.
+## config.json
+
+Contains non-secret configuration options.
+
+- "sound_on": `true` or `false`
+
+`config.py` on v1.x firmware: also contained the DigiROMs for the punchbag menu. Check the comments in the file for details.
+
+## digiroms.txt
+
+Contains the DigiROMs for the punchbag menu. Check the comments in the file for details.
 
 ## board_config.py
 

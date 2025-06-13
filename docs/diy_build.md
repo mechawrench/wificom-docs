@@ -7,14 +7,14 @@ To build a breadboard WiFiCom, see [Parts List](parts_list.md) and [Breadboard L
 ### WiFiCom
 - Raspberry Pi Pico W
 
-Note: Arduino Nano Connect, RP2040+AirLift, and screenless WiFiComs are likely to stop working in a future update.
+Note: Arduino Nano RP2040 Connect, RP2040+AirLift, and screenless WiFiComs are only supported up to WiFiCom firmware v1.x, and will act as screenless P-Coms in v2.x.
 
 ### P-Com (USB serial connection only)
 - Raspberry Pi Pico
 - Seeed Xiao RP2040
 - Other RP2040 boards are likely to work, but you will need to define pins in `board_config.py`
 
-Note: Screen output on P-Coms is likely to stop working in a future update.
+Note: Screen output on P-Coms is only supported up to WiFiCom firmware v1.x.
 
 ## Schematic
 
