@@ -4,7 +4,7 @@ This project is modular, so choose the sections you need.
 
 ## Shipping from USA
 - Most parts are available from DigiKey
-    - [Shared Cart](https://www.digikey.com/short/0jc7w4hv)
+    - [Shared Cart](https://www.digikey.com/short/qm7p48bj)
     - Parts in this cart are labelled BASE/PRONG/IR/LEGENDZ - you can delete unneeded items before purchase
 - [Pi Pico W with pre-soldered headers (Amazon)](https://www.amazon.com/Pico-Raspberry-Pre-Soldered-Dual-core-Processor/dp/B0BK9W4H2Q/)
     - Can be found cheaper if you're able to solder the headers on
